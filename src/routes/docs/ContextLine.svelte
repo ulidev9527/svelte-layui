@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { GridCol, GridRow, Tab, TabTitle, TabContent } from "$lib/index.js";
+    import { GridCol, GridRow, Tab, TabTitle, TabContent } from "$lib/component/index.js";
 
     export let title: string;
     export let code: string;

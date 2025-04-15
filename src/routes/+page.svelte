@@ -1,16 +1,16 @@
 <script lang="ts">
-    import LayuiMenu from "$lib/menu.svelte";
-    import LayuiMenuItem from "$lib/menu-item.svelte";
-    import LayuiIcon from "$lib/icon.svelte";
-    import LayuiContainer from "$lib/layout-container.svelte";
+    import LayuiMenu from "$lib/component/menu.svelte";
+    import LayuiMenuItem from "$lib/component/menu-item.svelte";
+    import LayuiIcon from "$lib/component/icon.svelte";
+    import LayuiContainer from "$lib/component/layout-container.svelte";
     import DocLayout from "./docs/layout.svelte";
     import DocGrid from "./docs/grid.svelte";
     import DocButton from "./docs/button.svelte";
     import DocIcon from "./docs/icon.svelte";
     import DocForm from "./docs/form.svelte";
     import DocInput from "./docs/input.svelte";
-    import LayuiGridRow from "$lib/grid-row.svelte";
-    import LayuiGridCol from "$lib/grid-col.svelte";
+    import LayuiGridRow from "$lib/component/grid-row.svelte";
+    import LayuiGridCol from "$lib/component/grid-col.svelte";
 
     let menus: [string, any, 0 | 1 | 2][] = $state([
         // [名称, 组件, 0隐藏 1默认显示 2独立显示]

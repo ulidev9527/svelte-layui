@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Input } from "$lib/index.js";
+    import { Input } from "$lib/component/index.js";
 
     import ContextLine from "./ContextLine.svelte";
 </script>

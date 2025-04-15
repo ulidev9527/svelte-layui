@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Button, ButtonGroup, ButtonContainer } from "$lib/index.js";
+    import { Button, ButtonGroup, ButtonContainer } from "$lib/component/index.js";
 </script>
 
 <h1>按钮</h1>

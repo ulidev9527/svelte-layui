@@ -1,8 +1,8 @@
 <script lang="ts">
-    import LayuiForm from "$lib/form.svelte";
-    import LayuiFormItem from "$lib/form-item.svelte";
-    import LayuiFormLabel from "$lib/form-label.svelte";
-    import LayuiInput from "$lib/input.svelte";
+    import LayuiForm from "$lib/component/form.svelte";
+    import LayuiFormItem from "$lib/component/form-item.svelte";
+    import LayuiFormLabel from "$lib/component/form-label.svelte";
+    import LayuiInput from "$lib/component/input.svelte";
 
     
 </script>

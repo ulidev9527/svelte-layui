@@ -1,6 +1,6 @@
 <script lang="ts">
-    import LayuiCol from "$lib/grid-col.svelte";
-    import LayuiRow from "$lib/grid-row.svelte";
+    import LayuiCol from "$lib/component/grid-col.svelte";
+    import LayuiRow from "$lib/component/grid-row.svelte";
 </script>
 
 <h1>栅格</h1>

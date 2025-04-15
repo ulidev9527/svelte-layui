@@ -1,5 +1,5 @@
 <script lang="ts">
-    import LayuiIcon from "$lib/icon.svelte";
+    import LayuiIcon from "$lib/component/icon.svelte";
 
     
     
